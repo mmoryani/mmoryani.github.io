@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#FAF4E8"/>
+  <rect x="0" y="0" width="1200" height="14" fill="#2B48F0"/>
+  <rect x="0" y="616" width="1200" height="14" fill="#FF4A36"/>
+
+  <!-- halftone corner -->
+  <g fill="#FFB511" opacity="0.55">
+    <circle cx="1020" cy="80" r="4"/><circle cx="1050" cy="80" r="4"/><circle cx="1080" cy="80" r="4"/><circle cx="1110" cy="80" r="4"/>
+    <circle cx="1035" cy="105" r="4"/><circle cx="1065" cy="105" r="4"/><circle cx="1095" cy="105" r="4"/><circle cx="1125" cy="105" r="4"/>
+    <circle cx="1020" cy="130" r="4"/><circle cx="1050" cy="130" r="4"/><circle cx="1080" cy="130" r="4"/><circle cx="1110" cy="130" r="4"/>
+    <circle cx="1035" cy="155" r="4"/><circle cx="1065" cy="155" r="4"/><circle cx="1095" cy="155" r="4"/><circle cx="1125" cy="155" r="4"/>
+  </g>
+
+  <!-- mirror-with-tooth mark -->
+  <g transform="translate(80 70) scale(2.6)">
+    <line x1="18.2" y1="29.5" x2="8" y2="44" stroke="#141210" stroke-width="4.4" stroke-linecap="round"/>
+    <circle cx="27" cy="17.5" r="14.2" fill="#2B48F0" stroke="#141210" stroke-width="3"/>
+    <g transform="translate(15.4 6.2) scale(0.485)">
+      <path d="M9 19 C9 9 15 7 19 9 C21 10 23 11 24 11 C25 11 27 10 29 9 C33 7 39 9 39 19 C39 25 37 28 35 30 C34.5 36 32.5 41 30 41 C27.5 41 27 35 26.5 32 C26.2 30 25.3 29 24 29 C22.7 29 21.8 30 21.5 32 C21 35 20.5 41 18 41 C15.5 41 13.5 36 13 30 C11 28 9 25 9 19 Z"
+        fill="#FFB511" stroke="#141210" stroke-width="4" stroke-linejoin="round"/>
+    </g>
+    <circle cx="19.5" cy="9.8" r="2" fill="#FAF4E8" opacity="0.9"/>
+  </g>
+
+  <text x="230" y="152" font-family="Bricolage Grotesque, Archivo, sans-serif" font-size="64" font-weight="800" fill="#141210" letter-spacing="-2">firstfill</text>
+
+  <text x="80" y="330" font-family="Bricolage Grotesque, Archivo, sans-serif" font-size="86" font-weight="800" fill="#141210" letter-spacing="-3">The network you join</text>
+  <text x="80" y="425" font-family="Bricolage Grotesque, Archivo, sans-serif" font-size="86" font-weight="800" fill="#2B48F0" letter-spacing="-3" font-style="italic">before</text>
+  <text x="365" y="425" font-family="Bricolage Grotesque, Archivo, sans-serif" font-size="86" font-weight="800" fill="#141210" letter-spacing="-3">you're a dentist.</text>
+
+  <text x="80" y="530" font-family="Space Mono, monospace" font-size="24" letter-spacing="4" fill="#6B6257" font-weight="700">VERIFIED MEMBERS ONLY · D1 → YEAR FIVE · FREE FOREVER</text>
+</svg>
